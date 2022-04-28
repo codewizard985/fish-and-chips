@@ -1,0 +1,128 @@
+html{
+    background-image: url(img/fond.png);
+}
+
+body{
+    color: #424953;
+    font-family: "Open sans", Arial, sans-serif;
+    font-size: 1em;
+    line-height: 1.5;
+    margin: 0;
+}
+
+
+.container {
+	max-width: 1100px;
+	min-width: 800px;
+	margin: 0 auto;
+}
+
+header {
+	/* background-image: url(img/logo.png) no-repeat; */
+    background-color: #25B3B4;
+	border-top: 5px solid #1B9CA2;
+	border-bottom: 5px solid #1B9CA2;
+	margin-top: 100px;
+    text-align: center;
+}
+
+nav {
+	text-align: center;
+}
+
+
+nav a{
+	font-size: 1.5em;
+	color: white;
+	text-decoration: none;
+    display: inline-block;
+    padding: 15px;
+}
+
+#presentation{
+    text-align: center;
+    width: 750px;
+    margin: 50px auto 0;
+}
+
+h1{
+    text-align: center;
+    font-size: 2em;
+    font-weight: normal;
+}
+
+#recepies{
+    display: inline-block;
+    width: 65%;
+    vertical-align: top;
+    text-align: center;
+    background-color: #B6DFDD;
+    margin: 4.5% 2% 0 0;
+    padding: 2.5%;
+}
+h1, h2, h3{
+    font-family: "Slabo 27px";
+    text-align: center;
+    font-weight: normal;
+    font-size: 2em;
+}
+span{
+    color: #4C9CA2;
+}
+
+#recepies article{
+    vertical-align: top;
+    display: inline-block;
+    padding: 2.5%;
+    width: 43%;
+    text-align: left;
+}
+
+#recepies article img{
+    float: left;
+    border-radius: 50%;
+    margin-right: 10px;
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+}
+
+#recepies a{
+    text-decoration: none;
+    color: #FBEFDB;
+    background-color: #4C9CA2;
+    padding: 5px 15px;
+	float: right;
+	margin-top: 15px;
+}
+
+aside{
+    background-color: #25B3B4;
+	color: white;
+	border: 5px solid #1B9CA2;
+    padding: 2.5%;
+    display: inline-block;
+    margin-top: 50px;
+    vertical-align: top;
+    width: 20%;
+}
+
+aside h2{
+    color: #FEF9F3;
+    font-size: 1.3em;
+}
+
+aside a{
+    text-decoration: none;
+    color: #B6DFDD;
+}
+aside p{
+    font-size: 0.9em;
+    font-weight: normal;
+    margin: 0 0 15px;
+}
+
+#vignette{
+    float: right;
+    margin: -70px -70px 0 0;
+}
